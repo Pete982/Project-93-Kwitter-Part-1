@@ -1,5 +1,7 @@
 function addUser(){
     username=document.getElementById("user_name").value;
+    
     localStorage.setItem("username", username);
-    window.location="Chatting.html";
+    
+    window.location="Third_Page.html";
 }
